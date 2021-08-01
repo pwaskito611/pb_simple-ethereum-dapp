@@ -19,18 +19,6 @@ module.exports = {
       },
       network_id: 5777
     },
-    goerli_infura: {
-      provider: function() {
-        return new HDWalletProvider(process.env.MNEMONIC, "https://goerli.infura.io/v3/ffa60321cbbd4cfda3352014c556e3c3", AccountIndex)
-      },
-      network_id: 5
-    },
-    ropsten_infura: {
-      provider: function() {
-        return new HDWalletProvider(process.env.MNEMONIC, "wss://ropsten.infura.io/ws/v3/b4f6612c268242c3974875a2a6c62cf5", AccountIndex)
-      },
-      network_id: 3
-    }
   },
   compilers: {
     solc: {
