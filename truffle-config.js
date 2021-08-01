@@ -18,7 +18,7 @@ module.exports = {
         return new HDWalletProvider(process.env.MNEMONIC, "http://127.0.0.1:7545", AccountIndex)
       },
       network_id: 5777
-    },
+    }
   },
   compilers: {
     solc: {
